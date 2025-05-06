@@ -22,3 +22,12 @@ The `Product` class defines a `sync` method with `before_sync` and `after_sync` 
 To see the demonstration in action, simply run the `Product.new.sync` command.
 
 This example illustrates the versatility of ActiveModel callbacks, encouraging developers to explore their use in various contexts beyond CRUD.
+
+To set up and run this demonstration, execute the following commands in your terminal:
+
+```bash
+bundle install
+ruby product.rb
+```
+
+This will install the necessary dependencies and run the `Product` class demonstration.
